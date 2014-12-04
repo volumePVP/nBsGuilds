@@ -799,9 +799,6 @@ command /odnow [<text>] [<text>]:
 					else:
 						send "{@tag} &cPodna gildia nie istnieje"
 						stop
-				else:
-					send "{@tag} &cMuszisz podac '&6OK&c', aby przedluz waznosc gildii o &67 &cdni"
-					stop
 			else:
 				if arg 1 is not set:
 					if arg 2 is not set:
